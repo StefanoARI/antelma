@@ -1,3 +1,5 @@
+import { IMAGES } from "../assets/images";
+
 export interface ServiceItem {
   id: string;
   title: string;
@@ -153,7 +155,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     title: "Continuità Operativa & Cyber Security per Polo Manifatturiero",
     clientCategory: "Manifattura & Industria 4.0",
     date: "SETTEMBRE 2026",
-    image: "/src/assets/images/case_study_datacenter_1790675261157.jpg",
+    image: IMAGES.caseStudyDatacenter,
     challenge: "Un'azienda metalmeccanica con 120 dipendenti subiva frequenti rallentamenti di linea ed era esposta a tentativi di spear-phishing che rischiavano di bloccare i macchinari interconnessi.",
     solution: "Installazione di un circuito FiberEVOx 1 Gbps dedicato con backup automatico 5G SD-WAN, deployment della suite Antelma Secure (EDR e filtro DNS) e sessioni di cyber awareness al personale.",
     results: "99.99% di operatività continua registrata, zero incidenti informatici in 18 mesi, piena conformità alla direttiva NIS2.",
@@ -164,7 +166,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     title: "Smart Office Suite & WhatsApp OpenBridge per Gruppo Retail & Servizi",
     clientCategory: "Servizi Corporate & Retail",
     date: "LUGLIO 2026",
-    image: "/src/assets/images/case_study_traffic_1790675249324.jpg",
+    image: IMAGES.caseStudyTraffic,
     challenge: "Coordinamento critico tra 8 sedi distaccate e operatori sul territorio, con centinaia di richieste clienti perse tra centralini tradizionali e chat WhatsApp non centralizzate.",
     solution: "Migrazione completa alla Smart Office Suite Cloud con integrazione OpenBridge per collegare i numeri WhatsApp ufficiali al flusso di chiamata e al CRM aziendale.",
     results: "Tempi di risposta al cliente ridotti del 60%, eliminazione dei canoni delle linee analogiche, tracciabilità totale dei contatti commerciali.",
